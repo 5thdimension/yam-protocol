@@ -9,13 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.12.3",
+    "babel": "^6.23.0",
     "dotenv-flow": "^3.2.0",
-    "ethers": "^5.0.8",
-    "ganache-core": "^2.11.2"
+    "ethers": "^5.0.19",
+    "ganache-core": "^2.13.1",
+    "truffle": "^5.1.53"
   },
   "devDependencies": {
-    "@truffle/hdwallet-provider": "^1.0.40",
+    "@truffle/hdwallet-provider": "^1.2.0",
     "ethereumjs-abi": "^0.6.8",
-    "ethereumjs-util": "^7.0.4"
+    "ethereumjs-util": "^7.0.7"
   }
 }
